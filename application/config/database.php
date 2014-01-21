@@ -53,7 +53,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'sqlite:'.APPPATH.'db/your_database.sqlite';
+$db['default']['hostname'] = 'sqlite:'.APPPATH.'db/news.sqlite';
 $db['default']['username'] = '';
 $db['default']['password'] = '';
 $db['default']['database'] = '';
