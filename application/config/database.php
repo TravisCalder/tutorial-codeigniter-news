@@ -1,4 +1,9 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/************************************************************************
+| Modified by: Travis Calder
+|   Set up SQLite databse
+*************************************************************************/
+
 /*
 | -------------------------------------------------------------------
 | DATABASE CONNECTIVITY SETTINGS
