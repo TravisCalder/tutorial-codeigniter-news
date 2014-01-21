@@ -1,4 +1,9 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/************************************************************************
+| Modified by: Travis Calder
+|   Modify default routing to /[controller]/[method]/[args]
+*************************************************************************/
+
 /*
 | -------------------------------------------------------------------------
 | URI ROUTING
@@ -38,8 +43,11 @@
 |
 */
 
-$route['default_controller'] = "welcome";
-$route['404_override'] = '';
+// $route['default_controller'] = "welcome";
+// $route['404_override'] = '';
+
+$route['default_controller'] = 'pages/view';
+$route['(:any)'] = 'pages/view/$1';
 
 
 /* End of file routes.php */
